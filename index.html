@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solving Causal Human-Object Interaction in Educational GenAI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f9fafb;
+            color: #111827;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #2563eb, #7c3aed);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .architecture-box {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: transform 0.2s;
+        }
+        .architecture-box:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header Section -->
+    <header class="max-w-5xl mx-auto pt-16 pb-8 px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-4 leading-tight">
+            Solving Causal Human-Object Interaction <br class="hidden md:block" />
+            in <span class="gradient-text">Educational GenAI</span>
+        </h1>
+        <p class="text-xl md:text-2xl font-medium text-gray-600 mb-6">
+            A Decoupled Architecture for Stroke-Perfect Writing
+        </p>
+        
+        <div class="flex flex-wrap justify-center gap-4 text-lg font-medium text-blue-600 mb-8">
+            <span class="hover:text-blue-800 cursor-pointer transition-colors">The Imagination Engine Team</span>
+        </div>
+
+        <div class="flex flex-wrap justify-center gap-4 mb-12">
+            <!-- <a href="#" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-full shadow-sm text-white bg-blue-600 hover:bg-blue-700 transition-colors">
+                <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                Code (Coming Soon)
+            </a> -->
+            <a href="Architectural Proposal Paper.pdf" class="inline-flex items-center px-6 py-3 border border-gray-300 text-base font-medium rounded-full shadow-sm text-gray-700 bg-white hover:bg-gray-50 transition-colors">
+                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                Read Paper
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
+        
+        <!-- Video Teaser Section -->
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold border-b-2 border-gray-200 pb-2 mb-6">Examples: SOTA Model Failures</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Video 1 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden flex flex-col">
+                    <div class="bg-black relative aspect-video">
+                        <video controls autoplay loop muted playsinline class="w-full h-full object-cover">
+                            <source src="Teaching_A_for_Apple_Video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="p-4 bg-gray-50 border-t border-gray-200 flex-grow">
+                        <p class="text-xs text-gray-700 font-mono leading-relaxed"><strong class="text-gray-900">Prompt:</strong> "A teacher is writing 'A for apple' with an image of an apple on a whiteboard. The audience is 3rd grade and below students"</p>
+                    </div>
+                </div>
+
+                <!-- Video 2 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden flex flex-col">
+                    <div class="bg-black relative aspect-video">
+                        <video controls autoplay loop muted playsinline class="w-full h-full object-cover">
+                            <source src="Teacher_Writes_Letter_A_On_Whiteboard.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="p-4 bg-gray-50 border-t border-gray-200 flex-grow">
+                        <p class="text-xs text-gray-700 font-mono leading-relaxed"><strong class="text-gray-900">Prompt:</strong> "A tight close-up shot of a teacher's hand holding a black dry-erase marker, actively writing a large, perfectly formed uppercase letter 'A' on a bright, clean whiteboard. The letter 'A' is clearly legible... High resolution, photorealistic."</p>
+                    </div>
+                </div>
+
+                <!-- Video 3 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden flex flex-col">
+                    <div class="bg-black relative aspect-video">
+                        <video controls autoplay loop muted playsinline class="w-full h-full object-cover">
+                            <source src="Teacher_Writes_A_On_Whiteboard.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="p-4 bg-gray-50 border-t border-gray-200 flex-grow">
+                        <p class="text-xs text-gray-700 font-mono leading-relaxed"><strong class="text-gray-900">Prompt:</strong> "A teacher write A in white board in class 1st"</p>
+                    </div>
+                </div>
+
+                <!-- Video 4 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden flex flex-col">
+                    <div class="bg-black relative aspect-video">
+                        <video controls autoplay loop muted playsinline class="w-full h-full object-cover">
+                            <source src="First_Grade_Classroom_A_Video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="p-4 bg-gray-50 border-t border-gray-200 flex-grow">
+                        <p class="text-xs text-gray-700 font-mono leading-relaxed"><strong class="text-gray-900">Prompt:</strong> "A warm, brightly lit 1st-grade classroom. A friendly teacher standing at a whiteboard, facing the board. The teacher has just written a single, large, clear uppercase letter 'A' in black marker... Cinematic lighting, highly detailed."</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-8 text-center text-sm text-red-800 bg-red-50 p-5 rounded-xl border border-red-100 max-w-3xl mx-auto shadow-sm">
+                <strong class="font-bold text-red-900 block mb-1">The "Fake Writing" Causality Gap:</strong> 
+                As seen in current SOTA models (like Veo or Sora) in the examples above, there is a severe spatial-temporal disconnect. The teacher's hand moves independently of the text appearing on the whiteboard, rendering it unusable for foundational literacy where stroke-order observation is critical.
+            </div>
+        </section>
+
+        <!-- Abstract Section -->
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold border-b-2 border-gray-200 pb-2 mb-6">Abstract</h2>
+            <div class="bg-blue-50/50 rounded-xl p-6 md:p-8 text-gray-700 leading-relaxed space-y-4 shadow-sm border border-blue-100">
+                <p>
+                    Current state-of-the-art (SOTA) video diffusion models rely heavily on semantic attention, which fails at fine-grained physical causality. When prompted to generate a teacher writing on a whiteboard, the model exhibits a severe spatial-temporal disconnect: the teacher's hand points or gestures randomly, while the text hallucinates onto the board independently.
+                </p>
+                <p>
+                    For foundational literacy (NIPUN Bharat), where a child must observe exact stroke order and hand-eye coordination, this lack of causal grounding renders the generated video unusable. In this project, we introduce the <strong>Imagination Engine</strong>, which moves from semantic approximation to mathematical, pixel-level physical constraints by decoupling generation into two distinct, mathematically controlled subsystems orchestrated by an Action Graph.
+                </p>
+            </div>
+        </section>
+
+        <!-- Architecture / Methodology Section -->
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold border-b-2 border-gray-200 pb-2 mb-6">Our Approach: Decoupling Motion and Rendering</h2>
+            <p class="text-gray-700 mb-8 leading-relaxed">
+                Within the "Imagination Engine," we are solving the causality gap by splitting the generation into two distinct subsystems, orchestrated by a high-level <strong>Action Graph</strong> to ensure logical sequencing. We synthesize techniques from isolated fields of AI research to build this unified architecture.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Subsystem A -->
+                <div class="architecture-box border-t-4 border-t-blue-500">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 p-3 rounded-lg mr-4">
+                            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900">Subsystem A<br/><span class="text-sm text-gray-500 font-normal">Trajectory-Guided Motion</span></h3>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+                        Instead of relying on text prompts for motion, we feed dense optical flow paths (the exact $x,y$ coordinate sequence of the letter strokes) directly into the diffusion U-Net. This forces the hand's pixel cluster to physically trace the stroke order.
+                    </p>
+                    <div class="bg-gray-50 p-3 rounded text-xs text-gray-500 font-mono">
+                        <strong>Powered by:</strong> Multiscale Fusion (DragNUWA) + Object Motion Control Modules (MotionCtrl)
+                    </div>
+                </div>
+
+                <!-- Subsystem B -->
+                <div class="architecture-box border-t-4 border-t-purple-500">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-purple-100 p-3 rounded-lg mr-4">
+                            <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900">Subsystem B<br/><span class="text-sm text-gray-500 font-normal">Glyph-Conditioned Gen</span></h3>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+                        Standard models treat text as a texture, causing alien glyphs. We integrate auxiliary OCR-based latent modules to generate perfect, legible typography frame-by-frame, ensuring the ink appears exactly where the hand dictates.
+                    </p>
+                    <div class="bg-gray-50 p-3 rounded text-xs text-gray-500 font-mono">
+                        <strong>Powered by:</strong> Glyph-Control & OCR-embeddings (AnyText, AnyText2, TextDiffuser)
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Abstract Architecture Flow -->
+            <div class="mt-8 bg-gray-900 rounded-xl p-6 text-center shadow-inner relative overflow-hidden">
+                <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(#fff 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <h4 class="text-white font-semibold mb-4 relative z-10">The Imagination Engine Pipeline</h4>
+                <div class="flex flex-col md:flex-row justify-center items-center gap-4 relative z-10">
+                    <div class="bg-gray-800 text-gray-300 px-4 py-2 rounded shadow border border-gray-700">Action Graph (Sequencing)</div>
+                    <svg class="w-6 h-6 text-gray-500 transform rotate-90 md:rotate-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    <div class="bg-blue-900/50 text-blue-200 px-4 py-2 rounded shadow border border-blue-800">U-Net (Trajectory Injection)</div>
+                    <svg class="w-6 h-6 text-gray-500 transform rotate-90 md:rotate-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    <div class="bg-purple-900/50 text-purple-200 px-4 py-2 rounded shadow border border-purple-800">Latent Space (OCR Masking)</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Execution and Collaboration Section -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold border-b-2 border-gray-200 pb-2 mb-6">Execution, Compute, and Collaboration</h2>
+            <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 md:p-8 flex flex-col md:flex-row gap-8 items-center">
+                <div class="flex-1 space-y-4 text-gray-700">
+                    <p>
+                        We are not just theorizing; we have the infrastructure to build and benchmark this. We have a strong engineering team—including top 1% IIT talent handling the heavy mathematical implementation.
+                    </p>
+                    <p>
+                        We are already fully onboarded with the <strong>AIRAWAT supercomputer facility</strong> for our training compute and have allocated a dedicated R&D budget of 2 Lakhs/month to collaborate with specialized labs.
+                    </p>
+                    <p class="font-semibold text-gray-900">
+                        Our goal is to work with an expert to refine how the Action Graph orchestrates these two subsystems into a single, cohesive, causal video output.
+                    </p>
+                </div>
+                <div class="w-full md:w-1/3 flex justify-center">
+                    <div class="bg-gray-50 p-6 rounded-full border border-gray-200 shadow-inner flex items-center justify-center h-40 w-40">
+                         <div class="text-center">
+                             <div class="text-3xl font-black text-blue-600">IIT</div>
+                             <div class="text-xs font-bold text-gray-500 mt-1 uppercase tracking-wider">Talent & Compute</div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8 text-center text-sm">
+        <p>&copy; 2026 The Imagination Engine Team. All rights reserved.</p>
+        <p class="mt-2">Developing mathematical pixel-level physical constraints for foundational literacy.</p>
+    </footer>
+
+</body>
+
+</html>
+
+
+
+
